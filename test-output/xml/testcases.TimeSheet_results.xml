@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Timesheet TEST"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.912">
+  <properties />
+  
+  
+            <testcase name="addTimeRecord" time="1.935" classname="testcases.TimeSheet" />
+                <testcase name="clickOnTimeSheet" time="6.977" classname="testcases.TimeSheet" />
+      
+</testsuite>
