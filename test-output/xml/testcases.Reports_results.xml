@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="7.142">
+           time="17.883">
   <properties />
   
   
-            <testcase name="tsReportPage" time="0.068" classname="testcases.Reports" />
-                <testcase name="clickOnReportTab" time="7.074" classname="testcases.Reports" />
+            <testcase name="clickOnReportTab" time="7.635" classname="testcases.Reports" />
+                <testcase name="tsReportPage" time="10.248" classname="testcases.Reports" />
       
 </testsuite>

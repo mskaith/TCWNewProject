@@ -29,5 +29,8 @@ public class Reports extends BaseTest {
 	@Test(priority=2)
 	public void tsReportPage() {
 		click("tsVReportBtn_xp");
+		driver.switchTo().frame(OR.getProperty("tsVReportFrame_id"));
+		String tsVReportStdTtl = driver.findElement(By.xpath(OR.getProperty("tsVReportStdTtl_xp"))).getText();
+		Assert.assertEquals(tsVReportStdTtl, "Standard Timesheet Report");
 	}
 }
