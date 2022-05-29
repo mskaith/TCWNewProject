@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Report TEST"
-           tests="1"
+           tests="2"
            failures="0"
            errors="0"
            skipped="0"
-           time="0.169">
+           time="7.142">
   <properties />
   
   
-            <testcase name="clickOnReportTab" time="0.169" classname="testcases.Reports" />
+            <testcase name="tsReportPage" time="0.068" classname="testcases.Reports" />
+                <testcase name="clickOnReportTab" time="7.074" classname="testcases.Reports" />
       
 </testsuite>

@@ -6,14 +6,14 @@
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     <listener class-name="listeners.CustomListener"/>
   </listeners>
-  <test thread-count="5" name="Timesheet TEST(failed)">
+  <test thread-count="5" name="Report TEST(failed)">
     <classes>
-      <class name="testcases.TimeSheet">
+      <class name="testcases.Reports">
         <methods>
-          <include name="addTimeRecord" invocation-numbers="0"/>
           <include name="setUp"/>
+          <include name="tsReportPage"/>
         </methods>
-      </class> <!-- testcases.TimeSheet -->
+      </class> <!-- testcases.Reports -->
     </classes>
-  </test> <!-- Timesheet TEST(failed) -->
+  </test> <!-- Report TEST(failed) -->
 </suite> <!-- Failed suite [TCW TESTING] -->
