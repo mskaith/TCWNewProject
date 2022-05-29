@@ -53,9 +53,6 @@ public class TimeSheet extends BaseTest {
 		WebElement startDateBox = driver.findElement(By.xpath(OR.getProperty("AddTStartDateBox_xp")));
 		startDateBox.clear();
 		String initailDate=data.get("startDateTr");
-		
-		
-		
 		//js.executeScript("arguments[0].value="+"'"+initailDate+"'"+"", startDateBox);
 		//js.executeScript("arguments[0].value='11/2/2022'", startDateBox);
 		startDateBox.sendKeys(data.get("startDateTr"));

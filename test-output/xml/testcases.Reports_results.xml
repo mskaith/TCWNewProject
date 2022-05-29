@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LOGIN TEST"
+<testsuite name="Report TEST"
            tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="12.527">
+           time="0.169">
   <properties />
   
   
-            <testcase name="doLogin" time="12.527" classname="testcases.LogInTest" />
+            <testcase name="clickOnReportTab" time="0.169" classname="testcases.Reports" />
       
 </testsuite>
