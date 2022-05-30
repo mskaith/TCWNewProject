@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Report TEST"
-           tests="3"
+           tests="4"
            failures="0"
            errors="0"
            skipped="0"
-           time="30.187">
+           time="39.619">
   <properties />
   
   
-            <testcase name="tsReportPage" time="10.244" classname="testcases.Reports" />
-                <testcase name="tsDetailedReportPage" time="10.429" classname="testcases.Reports" />
-                <testcase name="clickOnReportTab" time="9.514" classname="testcases.Reports" />
+            <testcase name="tsReportPage" time="10.221" classname="testcases.Reports" />
+                <testcase name="ptoBanksPage" time="11.093" classname="testcases.Reports" />
+                <testcase name="tsDetailedReportPage" time="10.348" classname="testcases.Reports" />
+                <testcase name="clickOnReportTab" time="7.957" classname="testcases.Reports" />
       
 </testsuite>

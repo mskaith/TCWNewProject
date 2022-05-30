@@ -254,3 +254,86 @@ INFO    2022-05-30 11:36:28,524 [main] base.BaseTest  - Typing in an Element: us
 INFO    2022-05-30 11:36:28,634 [main] base.BaseTest  - Typing in an Element: psswd_id entered the value as : tbtcw@2!!2
 INFO    2022-05-30 11:36:38,826 [main] base.BaseTest  - Clicking on the element loginBtn_xp
 INFO    2022-05-30 11:36:51,831 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 12:10:11,578 [main] base.BaseTest  - OR properties loaded
+INFO    2022-05-30 12:10:11,580 [main] base.BaseTest  - Config properties loaded
+INFO    2022-05-30 12:10:14,109 [main] base.BaseTest  - Chrome Driver launched
+INFO    2022-05-30 12:10:19,718 [main] base.BaseTest  - Typing in an Element: username_id entered the value as : sa
+INFO    2022-05-30 12:10:19,828 [main] base.BaseTest  - Typing in an Element: psswd_id entered the value as : tbtcw@2!!2
+INFO    2022-05-30 12:10:29,982 [main] base.BaseTest  - Clicking on the element loginBtn_xp
+INFO    2022-05-30 12:10:44,391 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 12:10:54,819 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 21:34:06,992 [main] base.BaseTest  - OR properties loaded
+INFO    2022-05-30 21:34:06,993 [main] base.BaseTest  - Config properties loaded
+INFO    2022-05-30 21:34:10,875 [main] base.BaseTest  - Chrome Driver launched
+INFO    2022-05-30 21:34:13,042 [main] base.BaseTest  - Typing in an Element: username_id entered the value as : sa
+INFO    2022-05-30 21:34:13,110 [main] base.BaseTest  - Typing in an Element: psswd_id entered the value as : tbtcw@2!!2
+INFO    2022-05-30 21:34:22,929 [main] base.BaseTest  - Clicking on the element loginBtn_xp
+INFO    2022-05-30 21:34:34,545 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 21:34:44,963 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 21:40:41,785 [main] base.BaseTest  - OR properties loaded
+INFO    2022-05-30 21:40:41,786 [main] base.BaseTest  - Config properties loaded
+INFO    2022-05-30 21:40:43,817 [main] base.BaseTest  - Chrome Driver launched
+INFO    2022-05-30 21:40:46,899 [main] base.BaseTest  - Typing in an Element: username_id entered the value as : sa
+INFO    2022-05-30 21:40:46,990 [main] base.BaseTest  - Typing in an Element: psswd_id entered the value as : tbtcw@2!!2
+INFO    2022-05-30 21:40:58,103 [main] base.BaseTest  - Clicking on the element loginBtn_xp
+INFO    2022-05-30 21:41:09,648 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 21:41:20,087 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 21:42:19,192 [main] base.BaseTest  - OR properties loaded
+INFO    2022-05-30 21:42:19,192 [main] base.BaseTest  - Config properties loaded
+INFO    2022-05-30 21:42:21,196 [main] base.BaseTest  - Chrome Driver launched
+INFO    2022-05-30 21:42:22,790 [main] base.BaseTest  - Typing in an Element: username_id entered the value as : sa
+INFO    2022-05-30 21:42:22,871 [main] base.BaseTest  - Typing in an Element: psswd_id entered the value as : tbtcw@2!!2
+INFO    2022-05-30 21:42:34,882 [main] base.BaseTest  - Clicking on the element loginBtn_xp
+INFO    2022-05-30 21:42:47,686 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 21:42:58,156 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 21:45:42,702 [main] base.BaseTest  - OR properties loaded
+INFO    2022-05-30 21:45:42,703 [main] base.BaseTest  - Config properties loaded
+INFO    2022-05-30 21:45:44,530 [main] base.BaseTest  - Chrome Driver launched
+INFO    2022-05-30 21:45:47,564 [main] base.BaseTest  - Typing in an Element: username_id entered the value as : sa
+INFO    2022-05-30 21:45:47,663 [main] base.BaseTest  - Typing in an Element: psswd_id entered the value as : tbtcw@2!!2
+INFO    2022-05-30 21:45:58,755 [main] base.BaseTest  - Clicking on the element loginBtn_xp
+INFO    2022-05-30 21:46:10,061 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 21:46:20,480 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 21:50:14,279 [main] base.BaseTest  - OR properties loaded
+INFO    2022-05-30 21:50:14,280 [main] base.BaseTest  - Config properties loaded
+INFO    2022-05-30 21:50:16,159 [main] base.BaseTest  - Chrome Driver launched
+INFO    2022-05-30 21:50:19,036 [main] base.BaseTest  - Typing in an Element: username_id entered the value as : sa
+INFO    2022-05-30 21:50:19,112 [main] base.BaseTest  - Typing in an Element: psswd_id entered the value as : tbtcw@2!!2
+INFO    2022-05-30 21:50:30,218 [main] base.BaseTest  - Clicking on the element loginBtn_xp
+INFO    2022-05-30 21:50:41,302 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 21:50:51,763 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 21:54:36,578 [main] base.BaseTest  - OR properties loaded
+INFO    2022-05-30 21:54:36,578 [main] base.BaseTest  - Config properties loaded
+INFO    2022-05-30 21:54:38,516 [main] base.BaseTest  - Chrome Driver launched
+INFO    2022-05-30 21:54:41,506 [main] base.BaseTest  - Typing in an Element: username_id entered the value as : sa
+INFO    2022-05-30 21:54:41,581 [main] base.BaseTest  - Typing in an Element: psswd_id entered the value as : tbtcw@2!!2
+INFO    2022-05-30 21:54:50,903 [main] base.BaseTest  - Clicking on the element loginBtn_xp
+INFO    2022-05-30 21:55:03,805 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 21:55:14,183 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 21:59:09,421 [main] base.BaseTest  - OR properties loaded
+INFO    2022-05-30 21:59:09,422 [main] base.BaseTest  - Config properties loaded
+INFO    2022-05-30 21:59:11,366 [main] base.BaseTest  - Chrome Driver launched
+INFO    2022-05-30 21:59:14,610 [main] base.BaseTest  - Typing in an Element: username_id entered the value as : sa
+INFO    2022-05-30 21:59:14,687 [main] base.BaseTest  - Typing in an Element: psswd_id entered the value as : tbtcw@2!!2
+INFO    2022-05-30 21:59:25,845 [main] base.BaseTest  - Clicking on the element loginBtn_xp
+INFO    2022-05-30 21:59:38,997 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 21:59:49,425 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 22:00:00,594 [main] base.BaseTest  - Clicking on the element ptoBankVReportBtn_xp
+INFO    2022-05-30 22:21:40,407 [main] base.BaseTest  - OR properties loaded
+INFO    2022-05-30 22:21:40,408 [main] base.BaseTest  - Config properties loaded
+INFO    2022-05-30 22:21:42,303 [main] base.BaseTest  - Chrome Driver launched
+INFO    2022-05-30 22:21:44,573 [main] base.BaseTest  - Typing in an Element: username_id entered the value as : sa
+INFO    2022-05-30 22:21:44,641 [main] base.BaseTest  - Typing in an Element: psswd_id entered the value as : tbtcw@2!!2
+INFO    2022-05-30 22:21:53,456 [main] base.BaseTest  - Clicking on the element loginBtn_xp
+INFO    2022-05-30 22:22:04,869 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 22:22:15,242 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 22:22:26,253 [main] base.BaseTest  - Clicking on the element ptoBankVReportBtn_xp
+INFO    2022-05-30 22:25:41,696 [main] base.BaseTest  - OR properties loaded
+INFO    2022-05-30 22:25:41,697 [main] base.BaseTest  - Config properties loaded
+INFO    2022-05-30 22:25:43,604 [main] base.BaseTest  - Chrome Driver launched
+INFO    2022-05-30 22:25:45,883 [main] base.BaseTest  - Typing in an Element: username_id entered the value as : sa
+INFO    2022-05-30 22:25:45,955 [main] base.BaseTest  - Typing in an Element: psswd_id entered the value as : tbtcw@2!!2
+INFO    2022-05-30 22:25:55,155 [main] base.BaseTest  - Clicking on the element loginBtn_xp
+INFO    2022-05-30 22:26:07,017 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 22:26:17,430 [main] base.BaseTest  - Clicking on the element tsVReportBtn_xp
+INFO    2022-05-30 22:26:28,586 [main] base.BaseTest  - Clicking on the element ptoBankVReportBtn_xp
