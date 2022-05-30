@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-TCW_TESTING" class="navigator-link ">
-                    <span>G:\Project Related stuffs\AllProjects\TCW\src\test\resources\runner\Reports.xml</span>
+                    <span>D:\TCW NEW PROJECT\TCW\src\test\resources\runner\Reports.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,6 +108,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TCW_TESTING" title="testcases.LogInTest" class="method navigator-link" hash-for-method="doLogin(sa, tbtcw@2!!2)">doLogin(sa, tbtcw@2!!2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TCW_TESTING" title="testcases.Reports" class="method navigator-link" hash-for-method="tsDetailedReportPage">tsDetailedReportPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -130,6 +135,35 @@
           <div class="suite-TCW_TESTING-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">testcases.Reports</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnReportTab">
+                  </a> <!-- clickOnReportTab -->
+                  <span class="method-name">clickOnReportTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tsDetailedReportPage">
+                  </a> <!-- tsDetailedReportPage -->
+                  <span class="method-name">tsDetailedReportPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tsReportPage">
+                  </a> <!-- tsReportPage -->
+                  <span class="method-name">tsReportPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TCW_TESTING-class-passed -->
+          <div class="suite-TCW_TESTING-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">testcases.LogInTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -143,32 +177,10 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-TCW_TESTING-class-passed -->
-          <div class="suite-TCW_TESTING-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.Reports</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickOnReportTab">
-                  </a> <!-- clickOnReportTab -->
-                  <span class="method-name">clickOnReportTab</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tsReportPage">
-                  </a> <!-- tsReportPage -->
-                  <span class="method-name">tsReportPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TCW_TESTING-class-passed -->
         </div> <!-- panel TCW_TESTING -->
         <div panel-name="test-xml-TCW_TESTING" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">G:\Project Related stuffs\AllProjects\TCW\src\test\resources\runner\Reports.xml</span>
+            <span class="header-content">D:\TCW NEW PROJECT\TCW\src\test\resources\runner\Reports.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -230,24 +242,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'doLogin')
 data.setCell(0, 2, 'testcases.LogInTest')
-data.setCell(0, 3, 12742);
+data.setCell(0, 3, 14614);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'tsReportPage')
+data.setCell(1, 1, 'tsDetailedReportPage')
 data.setCell(1, 2, 'testcases.Reports')
-data.setCell(1, 3, 10248);
+data.setCell(1, 3, 10429);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'clickOnReportTab')
+data.setCell(2, 1, 'tsReportPage')
 data.setCell(2, 2, 'testcases.Reports')
-data.setCell(2, 3, 7635);
+data.setCell(2, 3, 10244);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickOnReportTab')
+data.setCell(3, 2, 'testcases.Reports')
+data.setCell(3, 3, 9514);
 window.suiteTableData['TCW_TESTING']= { tableData: data, tableDiv: 'times-div-TCW_TESTING'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
               <div id="times-div-TCW_TESTING">
               </div> <!-- times-div-TCW_TESTING -->
             </div> <!-- times-div -->
@@ -283,18 +299,22 @@ return data;
               <div class="chronological-class-name">testcases.LogInTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">doLogin(sa, tbtcw@2!!2)</span>
-                <span class="method-start">4950 ms</span>
+                <span class="method-start">8026 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.Reports</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">clickOnReportTab</span>
-                <span class="method-start">17986 ms</span>
+                <span class="method-start">23258 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">tsReportPage</span>
-                <span class="method-start">25622 ms</span>
+                <span class="method-start">32773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tsDetailedReportPage</span>
+                <span class="method-start">43018 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

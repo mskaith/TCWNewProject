@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 import base.BaseTest;
 
 public class Reports extends BaseTest {
+	
 	@Test(priority = 1)
 	public void clickOnReportTab() {
 		WebElement sidebarMenuLst = driver.findElement(By.xpath(OR.getProperty("sidebarMenuLst_xp")));
@@ -31,6 +32,25 @@ public class Reports extends BaseTest {
 		click("tsVReportBtn_xp");
 		driver.switchTo().frame(OR.getProperty("tsVReportFrame_id"));
 		String tsVReportStdTtl = driver.findElement(By.xpath(OR.getProperty("tsVReportStdTtl_xp"))).getText();
+		WebElement tsEmpName = driver.findElement(By.xpath(OR.getProperty("tsEmpName_xp")));
+		wait.until(ExpectedConditions.visibilityOf(tsEmpName));
+		//System.out.println(employee);
 		Assert.assertEquals(tsVReportStdTtl, "Standard Timesheet Report");
+		
+	}
+	@Test(priority=3)
+	public void tsDetailedReportPage() throws InterruptedException {
+		//Thread.sleep(5000);
+		driver.switchTo().defaultContent();
+		WebElement tsDetailedBtn = driver.findElement(By.xpath(OR.getProperty("tsDetailedBtn_xp")));
+		act.moveToElement(tsDetailedBtn).click().build().perform();
+		click("tsVReportBtn_xp");
+		driver.switchTo().frame(OR.getProperty("tsVReportFrame_id"));
+		WebElement tsEmpName = driver.findElement(By.xpath(OR.getProperty("tsEmpName_xp")));
+		wait.until(ExpectedConditions.visibilityOf(tsEmpName));
+		String tsVReportDetailedTtl = driver.findElement(By.xpath(OR.getProperty("tsVReportDetailedTtl_xp"))).getText();
+		Assert.assertEquals(tsVReportDetailedTtl,"Detailed Timesheet Report");
+		
+		
 	}
 }

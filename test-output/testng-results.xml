@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-29T11:19:41Z" name="TCW TESTING" finished-at="2022-05-29T11:20:12Z" duration-ms="31076">
+  <suite started-at="2022-05-30T06:40:19Z" name="TCW TESTING" finished-at="2022-05-30T06:41:04Z" duration-ms="45622">
     <groups>
     </groups>
-    <test started-at="2022-05-29T11:19:41Z" name="LOGIN TEST" finished-at="2022-05-29T11:19:54Z" duration-ms="12910">
+    <test started-at="2022-05-30T06:40:19Z" name="LOGIN TEST" finished-at="2022-05-30T06:40:34Z" duration-ms="14825">
       <class name="testcases.LogInTest">
-        <test-method signature="doLogin(java.lang.String, java.lang.String)[pri:1, instance:testcases.LogInTest@7fe083b1]" started-at="2022-05-29T11:19:41Z" name="doLogin" data-provider="dp1" finished-at="2022-05-29T11:19:54Z" duration-ms="12742" status="PASS">
+        <test-method signature="doLogin(java.lang.String, java.lang.String)[pri:1, instance:testcases.LogInTest@5ca17ab0]" started-at="2022-05-30T06:40:19Z" name="doLogin" data-provider="dp1" finished-at="2022-05-30T06:40:34Z" duration-ms="14614" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,20 +25,24 @@
         </test-method> <!-- doLogin -->
       </class> <!-- testcases.LogInTest -->
     </test> <!-- LOGIN TEST -->
-    <test started-at="2022-05-29T11:19:54Z" name="Report TEST" finished-at="2022-05-29T11:20:12Z" duration-ms="17888">
+    <test started-at="2022-05-30T06:40:34Z" name="Report TEST" finished-at="2022-05-30T06:41:04Z" duration-ms="30202">
       <class name="testcases.Reports">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Reports@5149f008]" started-at="2022-05-29T11:19:37Z" name="setUp" finished-at="2022-05-29T11:19:41Z" duration-ms="4795" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Reports@35038141]" started-at="2022-05-30T06:40:11Z" name="setUp" finished-at="2022-05-30T06:40:19Z" duration-ms="7826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnReportTab()[pri:1, instance:testcases.Reports@5149f008]" started-at="2022-05-29T11:19:54Z" name="clickOnReportTab" finished-at="2022-05-29T11:20:02Z" duration-ms="7635" status="PASS">
+        <test-method signature="clickOnReportTab()[pri:1, instance:testcases.Reports@35038141]" started-at="2022-05-30T06:40:34Z" name="clickOnReportTab" finished-at="2022-05-30T06:40:44Z" duration-ms="9514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnReportTab -->
-        <test-method signature="tsReportPage()[pri:2, instance:testcases.Reports@5149f008]" started-at="2022-05-29T11:20:02Z" name="tsReportPage" finished-at="2022-05-29T11:20:12Z" duration-ms="10248" status="PASS">
+        <test-method signature="tsReportPage()[pri:2, instance:testcases.Reports@35038141]" started-at="2022-05-30T06:40:44Z" name="tsReportPage" finished-at="2022-05-30T06:40:54Z" duration-ms="10244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tsReportPage -->
+        <test-method signature="tsDetailedReportPage()[pri:3, instance:testcases.Reports@35038141]" started-at="2022-05-30T06:40:54Z" name="tsDetailedReportPage" finished-at="2022-05-30T06:41:04Z" duration-ms="10429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsDetailedReportPage -->
       </class> <!-- testcases.Reports -->
     </test> <!-- Report TEST -->
   </suite> <!-- TCW TESTING -->
