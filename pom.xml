@@ -140,7 +140,7 @@
 					<testFailureIgnore> false </testFailureIgnore>
 					<suiteXmlFiles>
 						<suiteXmlFile>src/test/resources/runner/Dashboard.xml</suiteXmlFile>
-
+						<suiteXmlFile>src/test/resources/runner/Reports.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 
