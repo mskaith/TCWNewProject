@@ -126,9 +126,8 @@ public class BaseTest {
 			driver = new FirefoxDriver();
 			log.info("Firefox Driver launched");
 		}
-
-		driver.get(Config.getProperty("testurl"));
 		driver.manage().window().maximize();
+		driver.get(Config.getProperty("testurl"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(Config.getProperty("impli"))));
 		js = (JavascriptExecutor) driver;
 		act = new Actions(driver);

@@ -72,4 +72,20 @@ public class Reports extends BaseTest {
 		String ptoBankPageTtl = driver.findElement(By.xpath(OR.getProperty("ptoBankPageTtl_xp"))).getText();
 		Assert.assertEquals(ptoBankPageTtl, "PTO Bank Report");
 	}
+	@Test(priority=5)
+	public void empContactPage() {
+		driver.switchTo().defaultContent();
+		WebElement empContactTabBtn = driver.findElement(By.xpath(OR.getProperty("empContactTabBtn_xp")));
+		act.moveToElement(empContactTabBtn).click().build().perform();
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("divLoading")));
+		// System.out.println("1");
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("divLoading")));
+		// System.out.println("2");
+		click("empContactVReportBtn_xp");
+		driver.switchTo().frame(OR.getProperty("ptoBankFrame_id"));
+		WebElement empEmpName = driver.findElement(By.xpath(OR.getProperty("empEmpName_xp")));
+		wait.until(ExpectedConditions.visibilityOf(empEmpName));
+		String empContactPageTtl = driver.findElement(By.xpath(OR.getProperty("empContactPageTtl_xp"))).getText();
+		Assert.assertEquals(empContactPageTtl, "EMPLOYEE CONTACT REPORT");
+	}
 }

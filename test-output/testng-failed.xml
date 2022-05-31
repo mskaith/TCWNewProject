@@ -11,7 +11,7 @@
       <class name="testcases.Reports">
         <methods>
           <include name="setUp"/>
-          <include name="ptoBanksPage"/>
+          <include name="empContactPage"/>
         </methods>
       </class> <!-- testcases.Reports -->
     </classes>
